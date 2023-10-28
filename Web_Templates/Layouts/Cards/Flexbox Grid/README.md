@@ -3,7 +3,7 @@
 This project showcases a set of cards created using HTML and CSS, with a focus on utilizing Flexbox for responsive card layouts. Each card highlights a different Flexbox feature.
 
 <!-- Embed Giphy -->
-![]("https://giphy.com/gifs/trWb981YxJ4qJqCdmz")
+![Alt Text]("[https://giphy.com/gifs/trWb981YxJ4qJqCdmz](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN285cDZyNGpvcXZkOHN4MmwwN3JqZDQ0eDhsbHpwZTdidGViNW96OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/trWb981YxJ4qJqCdmz/giphy.gif)")
 
 ## Project Overview
 
