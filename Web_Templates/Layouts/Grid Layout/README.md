@@ -2,6 +2,9 @@
 
 This project demonstrates a basic web layout created using HTML and SCSS (Sass). It features a grid-based structure with a header, main content area, left sidebar, right sidebar, and a footer.
 
+## Demo
+![Alt Text](https://media.giphy.com/media/Iy9rOKcWNjLdPJgIvp/giphy.gif)
+
 ## Project Structure
 
 - **Header**: The top section of the page serves as the header, styled with an elegant background color and centered text.
