@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css?family:Lato:300,400,700");
+$main-font: 'Lato';
+
+/* COLORS - Custom Scheme */
+$header-bg: #bea08c; // Header Background Color
+$main-bg: #ccc1bb;  // Main Content Background Color
+$sidebar-bg: #743e3a; // Sidebar Content Background Color
+$footer-bg: #a28c7c; // Footer Background Color
+$text-color: #fff;   // Text Color
+
+/* DEMO STYLES */
+body {
+  /* LAYOUT STYLES */
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  grid-template-areas:
+    "header"
+    "content"
+    "footer";
+  grid-template-rows: auto 1fr auto;
+  /* END LAYOUT STYLES */
+  font-family: $main-font;
+  font-size: 16px;
+  color: $text-color; // Global text color
+  .header, .sidebar-left,.main, .footer,.sidebar-right{
+    text-align: center;
+  }
+
+  /* Header Styles */
+  .header {
+    grid-area: header;
+    background: $header-bg; // Set header background color
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: $text-color;
+  }
+
+  .wrapper {
+    display: grid;
+    grid-template-areas:
+      "left main right";
+    grid-template-columns: 1fr 3fr 1fr;
+  }
+
+  /* Left Sidebar Styles */
+  .sidebar-left {
+    grid-area: left;
+    flex: 0 0 5%; /* Reduced sidebar width */
+    background: $sidebar-bg; // Set left sidebar background color
+    padding: 1rem;
+    color: $text-color; // Set left sidebar text color
+  }
+
+  /* Main Content Styles */
+  .main {
+    grid-area: main;
+    padding: 1rem;
+    background: $main-bg; // Set main content background color
+  }
+
+  /* Right Sidebar Styles */
+  .sidebar-right {
+    grid-area: right;
+    flex: 0 0 15%; // Set the width of the right sidebar
+    background: $sidebar-bg; // Set right sidebar background color
+    padding: 1rem;
+    color: $text-color; // Set right sidebar text color
+  }
+
+  /* Footer Styles */
+  .footer {
+    grid-area: footer;
+    background: $footer-bg; // Set footer background color
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    color: $text-color;
+  }
+}
