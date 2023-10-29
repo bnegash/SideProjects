@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #192231; /* Dark Forest Green */
+    color: #eddbcd; /* Muted Moss */
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center the items horizontally */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 80px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #eddbcd; /* Muted Moss */
+}
+
+.hero {
+    background: url('assets/hero_bkg.jpg') no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    color: #c0b283; /* Timeless Noir */
+    padding: 250px 0;
+}
+
+hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #c0b283; /* Timeless Noir */
+    color: #192231; /* Dark Forest Green */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #eddbcd; /* Muted Moss */
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    background-color: #404a42; /* Sophisticated Sage */
+    padding: 50px 0;
+}
+
+.feature {
+    text-align: center;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+.feature i {
+    font-size: 2rem;
+    color: #c0b283; /* Timeless Noir */
+    margin-bottom: 10px;
+}
+
+.contact {
+    background-color: #f4f4f4; /* Ethereal Ivory */
+    color: #192231; /* Dark Forest Green */
+    text-align: center;
+    height: 80px;
+    padding: 100px 0;
+}
+
+.contact h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}

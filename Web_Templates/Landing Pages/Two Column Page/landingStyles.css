@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+/* Reset some default styles */
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* Create a container for the page */
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+/* Styling for the left container (left column) */
+.left-container {
+    width: 40%;
+    height: 100%;
+    background-color: #FCEDDA;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* Styling for the navigation section */
+.navigation {
+    width: 80%;
+    height: 50px;
+    position: relative;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+/* Styling for the site title or logo */
+.title {
+    color: #2B7A78;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    float: left;
+    line-height: 50px;
+    transition: all 300ms ease-in-out;
+}
+
+/* Styling for the contact link */
+.contact {
+    color: #2B7A78;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    float: right;
+    line-height: 50px;
+    position: relative;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+/* Create a line effect for the contact link */
+.contact:before {
+    content: "";
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: #2B7A78;
+    transition: all 300ms ease-in-out;
+}
+
+/* Style the line effect on contact hover */
+.contact:hover:before {
+    width: 100%;
+}
+
+/* Styling for the logo section */
+.logo-container {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Styling for the site logo */
+.logo {
+    color: #2B7A78;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 64px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    text-align: center;
+    transition: all 300ms ease-in-out;
+}
+
+/* Styling for the social links section */
+.social {
+    width: 80%;
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+/* Styling for individual social buttons */
+.social-btn {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+/* Styling for the social icons */
+.social-btn .icon {
+    color: #2B7A78;
+    transition: all 300ms ease-in-out;
+    cursor: pointer;
+}
+
+/* Styling for the social title */
+.social-title {
+    color: #2B7A78;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    transition: all 300ms ease-in-out;
+}
+
+/* Change icon color on hover */
+.icon:hover {
+    color: #17252A;
+}
+
+/* Styling for the right container (right column) */
+.right-container {
+    width: 60%;
+    height: 100%;
+    background-color: #e5bf5e;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/* Create a line effect for input elements */
+.input:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #2B7A78;
+    transition: all 300ms ease-in-out;
+}
+
+/* Style the line effect on input hover */
+.input:hover:before {
+    background-color: #17252A;
+}
+
+/* Styling for the start container */
+.start-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+    transition: all 300ms ease-in-out;
+}
+
+/* Styling for the start title */
+.start-title {
+    color: #2B7A78;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    text-align: center;
+    transition: all 300ms ease-in-out;
+}
+
+/* Styling for the project container */
+.project-container {
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    margin-top: 5px;
+    transform: translate(-50%, 0);
+    width: 50%;
+}
+
+/* Styling for the "Tell us more" text */
+.tell-us-more {
+    color: #2B7A78;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    position: relative;
+    transition: all 300ms ease-in-out;
+}
+
+/* Create horizontal lines above and below "Tell us more" text */
+.tell-us-more:before, .tell-us-more:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    width: 50px;
+    height: 1px;
+    background-color: #2B7A78;
+}
+
+/* Style the lines */
+.tell-us-more:before {
+    left: 0;
+}
+
+.tell-us-more:after {
+    right: 0;
+}
+
+/* Styling for the "Let's Go" button */
+.start-btn {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 50px;
+    border-radius: 50px;
+    border: 1px solid #2B7A78;
+    color: #2B7A78;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+/* Style the button on hover */
+.start-btn:hover {
+    background-color: #2B7A78;
+    color: #fff;
+}
+
+/* Media query for smaller screens */
+@media (max-height: 600px) and (min-width: 600px) {
+    .title {
+        font-size: 16px;
+    }
+
+    .contact {
+        font-size: 10px;
+    }
+
+    .logo {
+        font-size: 40px;
+    }
+
+    .icon {
+        font-size: 10px;
+    }
+
+    .social-title {
+        font-size: 10px;
+        margin-top: 0;
+    }
+
+    .start-container {
+        width: 100%;
+    }
+
+    .start-title {
+        font-size: 12px;
+    }
+
+    .tell-us-more {
+        margin-top: -5px;
+        font-size: 10px;
+    }
+
+    .tell-us-more:before, .tell-us-more:after {
+        display: none;
+    }
+
+    .start-btn {
+        margin-top: 30px;
+        width: 100px;
+        height: 20px;
+        line-height: 20px;
+        font-size: 10px;
+    }
+}
