@@ -2,13 +2,8 @@
 
 This project is a simple landing page created using HTML and CSS. It features a two-column layout with a left column for navigation, social links, and a logo, and a right column for the main content.
 
-## Table of Contents
-
-- [Project Structure](#project-structure)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Usage](#usage)
-- [Author](#author)
+## Preview
+![Alt Text](TwoColPageImg.png)
 
 ## Project Structure
 
