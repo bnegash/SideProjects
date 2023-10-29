@@ -1,5 +1,3 @@
-# SideProjects
-
 ## Demos:
 
 # Card Flexbox
